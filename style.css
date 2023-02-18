@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Modern Antiqua', cursive;
 }
 
 body {
@@ -24,54 +25,74 @@ page .page1 {
     background: #dde6a8;
     padding: 100px;
     border-radius: 10px;
-    margin-left: 00px;
-    box-shadow: 4px 0px 15px rgba(0, 0, 0, .3);
-    position: absolute;
-
-
-
+    box-shadow: 4px 0px 15px rgba(0, 0, 0.2, 5.3);
+    float: left;
 
 }
 
-/*
 page .page2 {
     height: 800px;
     width: 500px;
     background: #dde6a8;
     padding: 100px;
     border-radius: 10px;
-    margin-left: 100px;
-    box-shadow: 4px 0px 15px rgba(0, 0, 0, .3);
-    position: absolute;
+    box-shadow: -4px 0 15px  rgba(0, 0, 0.2, 5.3);
+    float: right;
 
-*/
+}
 
-/*}*/
-
-h1{
+h1 {
     font-size: 40px;
     text-align: center;
     text-overflow: ellipsis;
-
+/*    margin-bottom: 90px;*/
+    transform: translate(0em, -1.4em);
 
 
 }
 
-h2{
-    font-size: 30px;
+.page1 h2 {
+    font-size: 28px;
     text-align: left;
     text-overflow: ellipsis;
+    display: inline-block;
+    transform: translate(-2em, -1.4em);
+    margin-top:30px;
 
+}
+.page2 h2 {
+    font-size: 28px;
+    text-align: left;
+    text-overflow: ellipsis;
+    display: inline-block;
+    transform: translate(-2em, -1.4em);
+    margin-top:18px;
 
 }
 
-p{
+p {
     font-size: 20px;
     text-align: left;
     text-overflow: ellipsis;
     word-spacing: 100vw;
-
     display: inline-block;
-  transform: translate(-1em, 2em);
+    transform: translate(-3em, -1.4em);
 
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background: #070707;
+    color: #f5eb75;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 0px;
+    font-weight: 2;
+    font-size: 15px;
+    display: inline-block;
+    transform: translate(16em, -2.4em);
 }
