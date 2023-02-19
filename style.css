@@ -6,9 +6,10 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 200vh;
     background: linear-gradient(to bottom left, #f0358b, #31279f);
 }
+
 
 container {
     width: 100%;
@@ -16,7 +17,7 @@ container {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin: 40px;
 }
 
 page .page1 {

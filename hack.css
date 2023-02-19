@@ -6,11 +6,13 @@
 
 body {
     min-height: 100vh;
-    color: #fff;
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
     animation: blinkingBackground 2s infinite;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 @keyframes blinkingBackground {
@@ -48,9 +50,8 @@ h1{
     font-size: 60px;
     text-align: center;
     color: black;
-    transform: translate(5em, 5em);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: center;
 }
-
-
-
-
