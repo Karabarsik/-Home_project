@@ -21,8 +21,8 @@ container {
 }
 
 page .page1 {
-    height: 800px;
-    width: 500px;
+    height: 95vh;
+    width: 60vh;
     background: #dde6a8;
     padding: 100px;
     border-radius: 10px;
@@ -32,8 +32,8 @@ page .page1 {
 }
 
 page .page2 {
-    height: 800px;
-    width: 500px;
+    height: 95vh;
+    width: 60vh;
     background: #dde6a8;
     padding: 100px;
     border-radius: 10px;
@@ -81,6 +81,16 @@ p {
 
 }
 
+.number1{
+    display: inline-block;
+    transform: translate(-70px, 55.5px);
+}
+
+.number2{
+    display: inline-block;
+    transform: translate(-70px, 55.5px);
+}
+
 button{
     width: 100px;
     height: 35px;
@@ -95,5 +105,6 @@ button{
     font-weight: 2;
     font-size: 15px;
     display: inline-block;
-    transform: translate(16em, -2.4em);
+    transform: translate(280px, -80.4px);
 }
+

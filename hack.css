@@ -35,18 +35,22 @@ body {
     45% {
         background-color: #04a1d5;
     }
+
     55% {
         background-color: #10c018;
     }
+
     90% {
         background-color: #ef0a1a;
     }
+
     100% {
         background-color: #04a1d5;
     }
 }
 
-h1{
+
+h1 {
     font-size: 60px;
     text-align: center;
     color: black;
@@ -54,4 +58,73 @@ h1{
     display: flex;
     align-items: center;
     position: center;
+    position: absolute;
+}
+
+p {
+    color: black;
+    animation: Write 2s infinite;
+    display: inline-block;
+/*    transform: translate(00px, 200.4px);*/
+    transform: rotateX(-20deg) rotateY(25deg);
+ }
+
+
+
+
+@keyframes Write {
+    0% {
+        font-size: 20px;
+        transform:rotateX(-40deg) rotateY(0deg);
+    }
+
+    10% {
+        font-size: 40px;
+/*        transform: rotate(25deg);*/
+    }
+
+    20% {
+        font-size: 80px;
+/*        transform: rotate(35deg);*/
+    }
+
+    30% {
+        font-size: 100px;
+/*        transform: rotate(45deg);*/
+    }
+
+    40% {
+        font-size: 150px;
+/*        transform: rotate(65deg);*/
+    }
+
+    50% {
+        font-size: 200px;
+/*        transform: rotate(85deg);*/
+    }
+
+    60% {
+        font-size: 250px;
+/*        transform: rotate(150deg);*/
+    }
+
+    70% {
+        font-size: 300px;
+/*        transform: rotate(200deg);*/
+    }
+
+    80% {
+        font-size: 350px;
+/*        transform: rotate(280deg);*/
+    }
+
+    90% {
+        font-size: 400px;
+/*        transform: rotate(320deg);*/
+    }
+
+    100% {
+        font-size: 500px;
+/*        transform: rotate(360deg);*/transform:rotateX(-40deg) rotateY(360deg);
+    }
 }
